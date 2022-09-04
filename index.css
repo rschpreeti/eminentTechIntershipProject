@@ -1,0 +1,142 @@
+*{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+}
+
+.div-1{
+    background-color: blue;
+}
+
+.div-2{
+    background-color: green;
+}
+
+.div-3{
+    background-color: gray;
+}
+
+.product_item{
+    /* width: 50px;
+    height: 50px; */
+    border: 5px solid;
+    width: 33.33%;
+}
+
+.seritems{
+    border: 2px solid;
+    width: 40%;
+    height: 400px;
+    margin: 5%;
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px;
+    padding: 10px;
+}
+.product-vid{
+    width: 33.33%;
+}
+
+.items{
+    display: flex;
+    width: 100%;
+}
+
+.picture{
+    display: block;
+    height: 250px;
+    width: 100%;
+}
+
+.product-vid{
+    display: block;
+    height: 250px;
+    width: 100%;
+}
+
+div.container {
+    text-align: center;
+    padding: 3px 3px;
+  }
+
+  .service-item{
+    border: 2px solid;
+    height: 600px;
+    width: 50%;
+  }
+  .services{
+    display: flex;
+  }
+  .s-item{
+    display: flex;
+  }
+
+  .details{
+    border: 2px solid;
+    width: 50%;
+    height: 135px;
+  }
+  .address{
+    border: 2px solid;
+    width: 50%;
+    height: 135px;
+  }
+
+  .maincontact{
+    display: flex;
+  }
+
+  @media(max-width:768px) {
+    .maincontact{
+        flex-direction: column;
+      }
+    .items{
+        flex-direction: column;
+    }
+    .s-item{
+        flex-direction: column;
+      }
+    .services{
+        flex-direction: column;
+      }
+      .seritems{
+        border: 2px solid;
+        width: 90%;
+        height: 220px;
+        background-color: black;
+    }
+    .service-item{
+    border: 2px solid;
+    height: 600px;
+    width: 100%;
+    }
+    .picture{
+        height: 250px;
+        width: 100%;
+        display: block;
+    }
+    .product_item{
+        border: 5px solid;
+        width: 100%;
+    }
+    .product-vid{
+        height: 250px;
+        width: 100%;
+        display: block;;
+    }
+
+    .details{
+        border: 2px solid;
+        width: auto;
+        height: 135px;
+      }
+      .address{
+        border: 2px solid;
+        width: auto;
+        height: 100px;
+      }
+  }
+
